@@ -1,0 +1,3 @@
+# My Philosophies
+
+To be filled...

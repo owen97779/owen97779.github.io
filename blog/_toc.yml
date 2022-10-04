@@ -2,8 +2,31 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: index
 chapters:
-- file: markdown
-- file: notebooks
+- file: projects
+  sections:
+  - file: jupyter-book
+  - file: unity
+  - file: GPS
+  - file: eBike
+  - file: 3d-printing
+- file: EE-handbook
+  sections: 
+    - file: EE-theory
+    - file: PCB-design
+    - file: Embedded-programming
+    - file: testing
+- file: Business-handbook
+  sections: 
+      - file: Economics
+- file: Philosophy-handbook
+  sections: 
+    - file: Intro-philosophy
+    - file: philo-science
+    - file: philo-religion
+    - file: my-philo
+      sections:
+        - file: politics
+        - file: bodybuilding    
 - file: markdown-notebooks
