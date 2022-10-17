@@ -109,11 +109,146 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="index.html">
-                    About
+                    The Blog
                 </a>
             </li>
         </ul>
         <ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="projects.html">
+   Projects
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="jupyter-book.html">
+     Jupyter Book Setup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="unity.html">
+     Solar-sytem Unity VR
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="GPS.html">
+     GPS
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="eBike.html">
+     Ebike Builds
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="3d-printing.html">
+     3D Printing
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="EE-handbook.html">
+   EE Handbook
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="EE-theory.html">
+     EE Theory
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="PCB-design.html">
+     PCB Design
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Embedded-programming.html">
+     Embedded Programming
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="testing.html">
+     Lab Testing
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Business-handbook.html">
+   Business Handbook
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Economics.html">
+     Economics Theory
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Philosophy-handbook.html">
+   Philosophy Handbook
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Intro-philosophy.html">
+     Introduction to Philosophy
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="philo-science.html">
+     Philosophy of Science
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="philo-religion.html">
+     Philosophy of Religion
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="my-philo.html">
+     My Philosophies
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="politics.html">
+       Politics
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="bodybuilding.html">
+       Bodybuilding
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
  <li class="toctree-l1">
   <a class="reference internal" href="markdown-notebooks.html">
    Test Page
@@ -398,14 +533,7 @@ For example, here’s some sample Matplotlib code:</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="nn">Input In [1],</span> in <span class="ni">&lt;cell line: 1&gt;</span><span class="nt">()</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">rcParams</span><span class="p">,</span> <span class="n">cycler</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;matplotlib&#39;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.pyplot._IonContext at 0x1c75eaa3160&gt;
 </pre></div>
 </div>
 </div>
@@ -432,6 +560,9 @@ For example, here’s some sample Matplotlib code:</p>
 <span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">custom_lines</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;Cold&#39;</span><span class="p">,</span> <span class="s1">&#39;Medium&#39;</span><span class="p">,</span> <span class="s1">&#39;Hot&#39;</span><span class="p">]);</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/notebooks_2_0.png" src="_images/notebooks_2_0.png" />
 </div>
 </div>
 <p>There is a lot more that you can do with outputs (such as including interactive outputs)
